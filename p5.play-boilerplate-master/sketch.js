@@ -3,12 +3,12 @@ var astronaut;
 
 function preload(){
   bg= loadImage("images/iss.png");
-  sleep = loadAnimation("images/sleep.png");
-  brush = loadAnimation("images/brush.png");
-  gym = loadAnimation("images/gym1.png","images/gym1.png","images/gym2.png","images/gym2.png");
-  eat = loadAnimation("images/eat1.png","images/eat1.png","images/eat1.png","images/eat2.png","images/eat2.png","images/eat2.png");
-  bath = loadAnimation("images/bath1.png","images/bath1.png","images/bath1.png","images/bath2.png","images/bath2.png","images/bath2.png");
- move = loadAnimation("images/move1.png","images/move1.png","images/move.png","images/move.png");
+  sleep = loadAnimation("sleep.png");
+  brush = loadAnimation("brush.png");
+  gym = loadAnimation("gym1.png","gym1.png","gym2.png","gym2.png");
+  eat = loadAnimation("eat1.png","eat1.png","eat1.png","eat2.png","eat2.png","eat2.png");
+  bath = loadAnimation("bath1.png","bath1.png","bath1.png","bath2.png","bath2.png","bath2.png");
+ move = loadAnimation("move1.png","move1.png","move.png","move.png");
 }
 
 function setup() {
